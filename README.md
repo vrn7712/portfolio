@@ -2,7 +2,6 @@
 
 A high-end, immersive developer portfolio featuring avant-garde graphic design, kinetic typography, and complex GSAP animations.
 
-![Portfolio Preview](/public/showcase.png)
 
 ## ✨ Features
 
