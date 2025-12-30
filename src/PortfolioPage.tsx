@@ -663,9 +663,9 @@ const SelectedWorks = () => {
   const containerRef = useRef<HTMLDivElement>(null);
 
   const projects = [
-    { title: "ZON APP", category: "Focus", img: "/showcase.png", tags: ["App", "Productivity"], link: "https://vrn7712.github.io/zon-website/" },
-    { title: "ALERT DRIVE", category: "Robotics", img: "/AlertDrive_page.png", tags: ["IoT", "Sensors"], link: "https://vrn7712.github.io/AlertDrive/" },
-    { title: "SPEEDBUMP", category: "Engineering", img: "/Non-Newtonian_page.png", tags: ["Innovation", "Physics"], link: "https://adaptive-speedbump.netlify.app/" },
+    { title: "ZON APP", category: "Focus", img: `${import.meta.env.BASE_URL}showcase.png`, tags: ["App", "Productivity"], link: "https://vrn7712.github.io/zon-website/" },
+    { title: "ALERT DRIVE", category: "Robotics", img: `${import.meta.env.BASE_URL}AlertDrive_page.png`, tags: ["IoT", "Sensors"], link: "https://vrn7712.github.io/AlertDrive/" },
+    { title: "SPEEDBUMP", category: "Engineering", img: `${import.meta.env.BASE_URL}Non-Newtonian_page.png`, tags: ["Innovation", "Physics"], link: "https://adaptive-speedbump.netlify.app/" },
     // { title: "PANDORA AI", category: "EdTech", img: "https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?q=80&w=2668&auto=format&fit=crop", tags: ["AI", "Education"], link: "#" },
   ];
 
