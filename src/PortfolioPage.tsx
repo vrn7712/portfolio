@@ -152,7 +152,7 @@ const Preloader = ({ onComplete }: { onComplete: () => void }) => {
         transition={{ duration: 0.5 }}
         className="text-4xl md:text-6xl font-black font-serif uppercase tracking-tighter"
       >
-        Portfolio ©2025
+        Portfolio ©2026
       </motion.div>
     </motion.div>
   );
@@ -410,7 +410,7 @@ const HeroSection = () => {
 
           <div className="mt-12 max-w-xl hero-meta">
             <p className="font-mono text-lg md:text-xl leading-relaxed text-balance">
-              16 y/o Aspiring Computer Scientist & <span className="bg-accent text-white px-1">JEE Aspirant</span>. Passionate about AI, Robotics, and building immersive digital experiences.
+              17 y/o Aspiring Computer Scientist & <span className="bg-accent text-white px-1">JEE Aspirant</span>. Passionate about AI, Robotics, and building immersive digital experiences.
             </p>
           </div>
 
@@ -441,7 +441,7 @@ const HeroSection = () => {
               <Star className="w-32 h-32 text-accent fill-current" />
             </div>
             <div className="absolute -bottom-5 -left-10 z-30 bg-accent text-white font-mono text-xs p-2 uppercase rotate-[-5deg] border border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
-              Since 2025 ©
+              Since 2026 ©
             </div>
           </div>
         </div>
@@ -751,6 +751,17 @@ const SelectedWorks = () => {
           </div>
         ))}
       </div>
+
+      {/* View All Projects Button */}
+      <div className="mt-24 flex justify-center">
+        <MagneticButton
+          onClick={() => window.open('https://projects-vrn-7712.vercel.app/', '_blank')}
+          className="group flex items-center gap-4 bg-transparent text-[#F2F0E9] px-10 py-5 text-lg md:text-xl font-bold uppercase tracking-widest border-2 border-white/20 hover:border-accent hover:text-accent transition-all duration-500 rounded-full"
+        >
+          View All Projects
+          <ArrowRight className="group-hover:translate-x-2 transition-transform" />
+        </MagneticButton>
+      </div>
     </section>
   );
 };
@@ -768,7 +779,7 @@ const AwardsSection = () => {
           {[1, 2, 3, 4].map((_, i) => (
             <div key={i} className="flex gap-12 items-center mx-6">
               <span className="text-6xl md:text-8xl font-serif font-black opacity-10 stroke-black text-stroke-1 hover:opacity-100 hover:text-accent transition-all duration-300 cursor-none hover-trigger">
-                RBVP BHOPAL 2025
+                RBVP BHOPAL 2026
               </span>
               <Star className="w-12 h-12 text-black fill-current animate-spin-slow" />
               <span className="text-6xl md:text-8xl font-serif font-black opacity-10 stroke-black text-stroke-1 hover:opacity-100 hover:text-accent transition-all duration-300 cursor-none hover-trigger">
@@ -836,7 +847,7 @@ const ContactFooter = () => {
         </div>
 
         <div className="flex flex-col md:flex-row justify-between items-center font-mono text-xs text-gray-500 uppercase tracking-widest gap-4">
-          <p>© 2025 Vrushal. All Rights Reserved.</p>
+          <p>© 2026 Vrushal. All Rights Reserved.</p>
           <div className="flex gap-8">
             {/* Removed duplicate links */}
           </div>

@@ -44,4 +44,4 @@ A high-end, immersive developer portfolio featuring avant-garde graphic design, 
 
 ## 📄 License
 
-© 2025 Vrushal Modh. All Rights Reserved.
+© 2026 Vrushal Modh. All Rights Reserved.
